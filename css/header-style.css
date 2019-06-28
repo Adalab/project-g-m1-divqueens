@@ -63,7 +63,9 @@ body{
     .header-titlenav .page__wrapper {
         display: flex;
         justify-content: space-between;
+        align-items:center;
         width: 100vw;
+    
         /*no sabamos cambiar el alto*/
         
     }
