@@ -1,0 +1,50 @@
+
+.section1-container{
+    margin:15px;
+    padding:5px;
+}
+
+.section1-cousin{
+    padding-bottom: 0px;
+    margin-bottom:0px;
+
+}
+
+.section1-title{
+    font-family:'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 900;
+    color:#099d8d;
+    text-align:center;
+}
+
+.section1-paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    color:#54585a;
+    text-align:center;
+}
+.arrow-down {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid white;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top: 0;
+}
+.strengths-weaknesses {
+    position:relative;
+}
+.aside-container{
+    background: #f1f1f1;
+    padding:5px;  
+}
+
+.aside-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    color: #099d8d;
+    text-align: center;
+}
