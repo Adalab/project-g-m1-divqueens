@@ -1,0 +1,11 @@
+.page__wrapper{
+    max-width: 1024px;
+    padding:0 15px;
+    margin:auto;
+    box-sizing:border-box;
+ }
+ @media all and (min-width:768px) {
+     .page__wrapper {
+         padding:0 45px;
+     }
+ }

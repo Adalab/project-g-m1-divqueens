@@ -1,7 +1,7 @@
 
 .section1-container{
-    margin:15px;
-    padding:5px;
+    padding-top:76px;
+    padding-bottom:30px;
 }
 
 .section1-cousin{
@@ -16,18 +16,20 @@
     font-weight: 900;
     color:#099d8d;
     text-align:center;
+    margin-top:0;
 }
 
 .section1-paragraph{
     font-family: 'Open Sans', sans-serif;
     font-size:16px;
+    margin:0;
     color:#54585a;
     text-align:center;
 }
 .arrow-down {
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 30px solid white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
     position:absolute;
     left:50%;
     transform:translateX(-50%);
@@ -35,16 +37,42 @@
 }
 .strengths-weaknesses {
     position:relative;
+    background: #f1f1f1;
 }
 .aside-container{
-    background: #f1f1f1;
-    padding:5px;  
+    padding-top:30px;
+    padding-bottom: 15px;  
 }
-
+.aside {
+    padding-bottom:30px;
+}
 .aside-title{
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
     font-weight: 900;
+    margin-top:8px;
+    margin-bottom: 8px;
     color: #099d8d;
     text-align: center;
+}
+@media all and (min-width:768px) {
+    .section1-container{
+        padding-top:30px;
+    }
+    .aside-container{
+        display:flex;
+        flex-direction:row;
+        padding-bottom: 30px;
+        padding-top: 45px;
+
+    }
+    .aside {
+        width: 50%;
+    }
+    .aside-f {
+        padding-right: 15px;
+    }
+    .aside-d {
+        padding-left: 15px;
+    }
 }

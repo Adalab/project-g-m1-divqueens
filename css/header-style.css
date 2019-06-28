@@ -78,12 +78,4 @@ body{
     .menu-element{
         margin:0 16px;
     }
-    .aside-container{
-        display:flex;
-        flex-direction:row;
-    }
-    .aside {
-        width: 50%;
-        padding: 0 16px;
-    }
 }
