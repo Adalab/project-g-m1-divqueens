@@ -67,3 +67,56 @@ h5{
    border-color: black solid 2px;
    margin:auto;
 }
+/*para tablet*/
+@media all and (min-width:768px) 
+{
+    .who-list-elemento{
+        display:flex;/*añadimos elemenos flex*/
+        margin:0px 15px 15px 15px;
+        font-family:'Open Sans', sans-serif;
+        font-size: 16px;
+        color:#5458;
+    }
+    .page__wrapper{
+        width: 678px;
+        border-color: black solid 2px;
+        margin: auto;
+
+    }
+    .who-image{
+        width:206px;
+    height: 206px;
+    
+        
+    }
+    
+    .imagen{
+    width:206px;
+    height: 206px;
+    
+        
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 31px;
+        text-align: left;
+
+    }
+    h5{
+        margin-block-end: 0em;
+        margin-block-start: 0em; 
+        
+    }
+    .who-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .who-list .who-list-elemento:nth-child(2n+1) .who-image{
+    
+    order: 2;
+
+}
+    
+}
