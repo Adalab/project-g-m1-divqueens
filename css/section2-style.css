@@ -63,7 +63,11 @@ h5{
    }
     
 .page__wrapper{
-   width: 290px;
-   border-color: black solid 2px;
+   max-width: 1024px;
    margin:auto;
+}
+@media all and (min-width:768px) {
+    .page__wrapper {
+        padding:0 50px;
+}
 }
