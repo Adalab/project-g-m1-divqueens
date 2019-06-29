@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>EQUIPO 2 WEBSITE</title>
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/header-style.css" />
     <link rel="stylesheet" href="css/hero-style.css" />
     <link rel="stylesheet" href="css/section1-style.css" />
@@ -17,36 +18,37 @@
 
 <body>
     <header class="header-container">
-        <div>
             <div class="header-titlenav">
-                <a class="header__title-link" href="#">
-                    <h1 class="header-title">Div Queens</h1>
-                </a>
-                <nav class="header-nav">
-                    <ul class="header-menu">
-                        <li class="menu-element">
-                            <a class="header-link" href="#team">Equipo</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="header-link" href="#who">Quiénes somos</a>
-                        </li>
-                        <li class="menu-element">
-                            <a class="header-link" href="#contact">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="page__wrapper">
+                    <h1 class="header-title">
+                        <a class="header__title-link" href="#">Div Queens</a>
+                    </h1>
+                    <nav class="header-nav">
+                        <ul class="header-menu">
+                            <li class="menu-element">
+                                <a class="header-link" href="#team">Equipo</a>
+                            </li>
+                            <li class="menu-element">
+                                <a class="header-link" href="#who__link">Quiénes somos</a>
+                            </li>
+                            <li class="menu-element">
+                                <a class="header-link" href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+               
             </div>
             <div class="hero-image">
                 <div class="page__wrapper">
                     <h2 class="lema">Nunca dejes que tus miedos ocupen el lugar de tus sueños</h2>
                 </div>
             </div>
-        </div>
     </header>
 
     <main>
         <section>
-            <div class="section1-container">
+            <div class="page__wrapper section1-container">
                 <div class="section1-cousin">
                     <h3 class="section1-title"><span id="team"></span> EQUIPO</h3>
                     <div class="section1-paragraph">
@@ -68,7 +70,7 @@
         </section>
 
         <aside class="strengths-weaknesses">
-            <div class="aside-container">
+            <div class="page__wrapper aside-container">
                 <div class="aside aside-f">
                     <h4 class="aside-title">Fortalezas</h4>
                     <p class="section1-paragraph">La diversidad profesional de nuestras trayectorias hace que abordemos
@@ -88,7 +90,7 @@
         </aside>
         <section class="who">
             <div class="page__wrapper">
-                <h3 id="who">Quienes somos<h3>
+                <h3 id="who"><span id="who__link"></span>Quienes somos<h3>
                     <ul class="who-list">
                         <li class="who-list-elemento">
                             <div class="who-image">
@@ -137,10 +139,10 @@
                         </li>
                         <li class="who-list-elemento">
                             <div class="who-image">
-                                <img class="imagen" src="image/clara.jpg" href="fotolaura">
+                                <img class="imagen" src="image/clara.jpg" href="fotoclara">
                             </div>
                             <div class="description">
-                                    <h5>CLARA DIOS</h5>
+                                    <h5>Clara Dios</h5>
                                     <p>Arquitecta con experiencia en el mundo del diseño y la construcción. Resolutiva y entusiasta con el aprendizaje y la aplicación de nuevas metodologías. Compatibilizo mi trabajo con la animación digital y la edición independiente.</p>
                                     <div>
                                         <ul class="who-list-navegator">
@@ -153,6 +155,7 @@
                                             <li class="li-navegator"><a href="clara.dios.diez@gmail.com"><i class="fa fa-envelope"></i></a></li>
                                         </ul>
                                     </div>
+
                             </div>
                         </li>
                         <li class="who-list-elemento">
