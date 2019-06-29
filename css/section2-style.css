@@ -72,11 +72,6 @@ h5 {
     color: #099d8d;
 }
 
-.page__wrapper {
-    width: 290px;
-    border-color: black solid 2px;
-    margin: auto;
-}
 
 /*para tablet*/
 
@@ -88,11 +83,6 @@ h5 {
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         color: #5458;
-    }
-    .page__wrapper {
-        width: 678px;
-        border-color: black solid 2px;
-        margin: auto;
     }
     .who-image {
         width: 206px;
@@ -136,14 +126,5 @@ h5 {
             justify-content: flex-start;
         }
     }*/
-    /*para equipo*/
-    @media all and (min-width:1200px){
-        .page__wrapper {
-            width: 100%;
-            margin-right: 138px;
-            margin-left: 138px;
-
-
-    }
 
 }
