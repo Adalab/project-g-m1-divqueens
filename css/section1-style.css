@@ -11,12 +11,17 @@
 }
 
 .section1-title{
+    position:relative;
     font-family:'Rubik', sans-serif;
     font-size:24px;
     font-weight: 900;
     color:#099d8d;
     text-align:center;
     margin-top:0;
+}
+#team{
+    position:absolute;
+    top:-100px;
 }
 
 .section1-paragraph{
@@ -58,6 +63,12 @@
 @media all and (min-width:768px) {
     .section1-container{
         padding-top:30px;
+    }
+    .section1-title{
+        position:relative;}
+    #team{
+        position:absolute;
+        top:-90px;
     }
     .aside-container{
         display:flex;
