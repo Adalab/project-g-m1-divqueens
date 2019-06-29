@@ -11,13 +11,14 @@
     width: 100%;
     margin-top: 30px;
 }
-.footer{
+.footer .page__wrapper{
     width: 100%;
     text-align: center;
     border-top: 1px solid #b8b8b9;  
 }
 .navegator-footer-menu{
     padding: 0px;
+    font-weight:700px;
 }
 .limenufooter{
     text-decoration: none;
@@ -26,6 +27,7 @@
     line-height: 1.43px;
     font-family:'Open Sans', sans-serif;
     text-transform: uppercase;
+    font-weight:600px;
 }
 .container-logo{
     width: 100%;
@@ -43,6 +45,39 @@
 }
 /*-----------*/
 @media all and (min-width:768px){
-    
+
+ .footer .page__wrapper{
+     position:relative;
+     text-align:none;
+ }   
+ .navegator-footer{
+     position:absolute;
+     right:0;
+     top:0;
+     padding-right:45px;
+     padding-top:25px;
+ }
+.navegator-footer-menu{
+    text-align:right;
+    margin:0;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+ }
+.footer-title{
+    text-align:left;
+    padding-top:28px;
+    margin:0;
+    padding-bottom:15px;
+ }
+.container-logo{
+    text-align: left;
+    padding-bottom: 58px; 
+ }
+.limenufooter{
+    padding-bottom:58px;
+
+}
 
 }
