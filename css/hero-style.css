@@ -1,6 +1,6 @@
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://drjconsulting.es/wp-content/uploads/2017/02/orbit001-2000x1092.jpg");
+    background-image: url("https://drjconsulting.es/wp-content/uploads/2017/02/orbit001-2000x1092.jpg");
     height: 421px;
     width: 100%;
     background-position: center;
