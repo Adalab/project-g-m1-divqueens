@@ -120,12 +120,11 @@ h5 {
         margin-left: 0px;
         text-align: right;
     }
-    
-    /*para tablet
-    @media all and (min-width:1200px) {
-        .who-list-elemento{
-            justify-content: flex-start;
-        }
-    }*/
-
 }
+
+/*para tablet
+@media all and (min-width:1200px) {
+    .who-list-elemento{
+        justify-content: flex-start;
+    }
+}*/
