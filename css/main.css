@@ -13,3 +13,10 @@ body{
          padding:0 45px;
      }
  }
+
+ @media all and (min-width:1200px) {
+    .page__wrapper{
+        max-width: 922px;
+        margin: 0 139px;
+     }
+ }

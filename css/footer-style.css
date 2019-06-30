@@ -18,7 +18,7 @@
 }
 .navegator-footer-menu{
     padding: 0px;
-    font-weight:700px;
+    font-weight:600;
 }
 .limenufooter{
     text-decoration: none;
@@ -74,10 +74,9 @@
 .container-logo{
     text-align: left;
     padding-bottom: 58px; 
- }
+    }
 .limenufooter{
     padding-bottom:58px;
-
+    }
 }
 
-}

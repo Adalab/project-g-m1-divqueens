@@ -83,7 +83,7 @@ h5 {
     }
     .who-list-elemento {
         display: flex;
-        /*añadimos elemenos flex*/
+        /*añadimos elementos flex*/
         margin: 0px 15px 40px 15px;
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
@@ -126,9 +126,28 @@ h5 {
     }
 }
 
-/*para tablet
 @media all and (min-width:1200px) {
+    .who-image {
+        width: 278px;
+        height: 278px;
+    }
+    .imagen {
+        width: 278px;
+        height: 278px;
+    }
+    .description{
+        margin-left:45px;
+    }
     .who-list-elemento{
         justify-content: flex-start;
     }
-}*/
+    .who-list-elemento:nth-child(even){
+        margin-left: 94px;
+    }
+    .who-list-elemento:nth-child(odd){
+        margin-right: 94px;
+   }
+   .who-list .who-list-elemento:nth-child(even) .description {
+       margin-right: 45px;
+   }
+}
