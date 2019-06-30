@@ -14,7 +14,9 @@
 .footer .page__wrapper{
     width: 100%;
     text-align: center;
-    border-top: 1px solid #b8b8b9;  
+}
+.footer{
+    border-top: 1px solid #b8b8b9;
 }
 .navegator-footer-menu{
     padding: 0px;
@@ -79,4 +81,3 @@
     padding-bottom:58px;
     }
 }
-
