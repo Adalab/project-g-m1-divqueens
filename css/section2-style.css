@@ -10,6 +10,7 @@
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
     margin: 15px;
+    position: relative;
 }
 
 .imagen {
@@ -77,6 +78,9 @@ h5 {
 /*para tablet*/
 
 @media all and (min-width:768px) {
+    #who .anchor-nav {
+        top: -78px;
+    }
     .who-list-elemento {
         display: flex;
         /*añadimos elemenos flex*/

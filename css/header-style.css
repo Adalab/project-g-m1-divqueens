@@ -10,7 +10,7 @@
     width:100%;
     position:fixed;
     z-index:1;
-    background-color: #099d8d;  
+    background-color: rgba(9,157,141,0.9);  
 }
 
 .header__title-link {
@@ -19,7 +19,6 @@
 }
 
 .header-title {
-    opacity:0.9;
     font-size:16px;
     margin:0px;
     padding:15px; /*poner como porcentaje*/
@@ -30,7 +29,7 @@
     align-items:center;  
 }
 .header-nav {
-    background-color: rgba(20, 217, 196, 0.9);
+    background-color: rgba(20, 217, 196, 0.6);
     margin:0 -15px;
     padding:8px 15px;
 }
@@ -49,7 +48,9 @@
     text-decoration:none;
     color:inherit;
     text-transform: uppercase;
-    }
+    padding: 6px 0;
+    display: inline-block;
+}
     
 @media all and (min-width:768px){
     .header-title{
