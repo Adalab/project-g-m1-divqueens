@@ -65,7 +65,8 @@
         padding-top:30px;
     }
     .section1-title{
-        position:relative;}
+        position:relative;
+    }
     .anchor-nav{
         position:absolute;
         top:-90px;
@@ -85,5 +86,11 @@
     }
     .aside-d {
         padding-left: 15px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .section1-container{
+    width:601px;
     }
 }
