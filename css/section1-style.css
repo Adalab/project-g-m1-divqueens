@@ -90,9 +90,9 @@
 }
 
 @media all and (min-width:1200px) {
-    .section1-container {
+    /*.section1-container {
         margin: 0 161px;
-    }
+    }*/
     .section1-paragraph-team{
         margin:8px 94px;
     }
