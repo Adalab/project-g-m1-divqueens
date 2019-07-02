@@ -90,14 +90,16 @@
 }
 
 @media all and (min-width:1200px) {
-    /*.section1-container {
-        margin: 0 161px;
-    }*/
+
+    .section1-container {
+        margin: 0 auto;
+    }
     .section1-paragraph-team{
         margin:8px 94px;
     }
     .aside {
         width: 50%;
+        
     }
     .aside-f {
         padding-right: 23px;
@@ -105,4 +107,7 @@
     .aside-d {
         padding-left: 23px;
     }
+   .aside .page__wrapper{
+       margin:0 auto;
+   }
 }
