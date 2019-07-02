@@ -61,6 +61,7 @@ text-align: justify;
      flex-direction: column;
      justify-content: flex-start;
      padding: 30px 0;
+     height: 110px;
  }
  .navegator-footer{
     
@@ -74,7 +75,7 @@ text-align: justify;
  }
 .navegator-footer-menu{
     text-align:right;
-    transform: translate(0px,-20px);
+    transform: translate(0px,-24px);
     margin:0;
     height:100px;
     display:flex;
@@ -90,14 +91,20 @@ text-align: justify;
  }
 .container-logo{
     text-align: left;
-    padding-bottom: 58px; 
+    padding-bottom: 60px; 
     order:2;
     width: 115px;
     height: 45px;
-    transform: translate(0px,-39px);
+    transform: translate(0px,-60px);
    
     }
 .limenufooter{
     padding-bottom:58px;
     }
+}
+@media all and (min-width:1200px){
+    .footer-desk{
+        padding: 24px 0px 47px 0px;
+    }
+
 }
