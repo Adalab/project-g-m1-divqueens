@@ -16,6 +16,7 @@
 .lema{
     margin:0;
     background-color:#fff;
+    font-size:18px;
     color: #000;
     text-align:center;
     padding:14px 15px 16px;
@@ -26,6 +27,9 @@
       width:60%;
       transform:translateY(0);
       text-align:left;
+    }
+    @media all and (min-width:1200px) {
+      font-size:24px;
     }
   }
 @media all and (min-width:768px) {

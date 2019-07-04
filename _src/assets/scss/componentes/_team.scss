@@ -10,7 +10,10 @@
 }
 .section1-cousin{
     padding-bottom: 0px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
+    @media all and (min-width:1200px) {
+        margin-bottom: 52px;
+    }
 }
 .section1-title{
     position:relative;
@@ -24,7 +27,7 @@
         position:relative;
     }
     @media all and (min-width:1200px) {
-        margin-top:44px;
+        margin-top:45px;
     }
 }
 .anchor-nav{
@@ -80,6 +83,9 @@
     margin-bottom: 8px;
     color: #099d8d;
     text-align: center;
+    @media all and (min-width:1200px) {
+        margin-top:45px;
+    }
 }
 @media all and (min-width:768px) {
     .aside-f {
@@ -95,9 +101,11 @@
     }
     .aside-f {
         padding-right: 23px;
+        padding-bottom:60px;
     }
     .aside-d {
         padding-left: 23px;
+        padding-bottom:60px;
     }
    .aside .page__wrapper{
        margin:0 auto;
