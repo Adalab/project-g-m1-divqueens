@@ -3,23 +3,17 @@ body{
     padding:0px;
 }
 .page__wrapper{
-    
-    width: 100%; /*pongo el 100 silvia*/
+    width: 100%;
     padding:0 15px;
     margin:auto;
     box-sizing:border-box;
- }
- @media all and (min-width:768px) {
-     .page__wrapper {
-        max-width: 768px; /*pongo el 100 silvia*/
+    @media all and (min-width:768px) {
+        max-width: 768px; 
         padding:0 45px;
-     }
- }
-
- @media all and (min-width:1200px) {
-    .page__wrapper{
-        max-width: 1500px; /*pongo el 100 silvia*/
-        /*max-width: 922px;*/
+    }
+    @media all and (min-width:1200px) {
+        max-width: 1500px;
         padding: 0 138px;
-     }
- }
+    }
+}
+
