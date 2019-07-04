@@ -1,15 +1,17 @@
-
 .section1-container{
     padding-top:76px;
     padding-bottom:30px;
+    @media all and (min-width:768px) {
+        padding-top:30px;
+    }
+    @media all and (min-width:1200px) {
+        margin: 0 auto;
+    }
 }
-
 .section1-cousin{
     padding-bottom: 0px;
     margin-bottom:0px;
-
 }
-
 .section1-title{
     position:relative;
     font-family:'Rubik', sans-serif;
@@ -18,18 +20,28 @@
     color:#099d8d;
     text-align:center;
     margin-top:0;
+    @media all and (min-width:768px) {
+        position:relative;
+    }
+    @media all and (min-width:1200px) {
+        margin-top:44px;
+    }
 }
 .anchor-nav{
     position:absolute;
     top:-100px;
+    @media all and (min-width:768px) {
+        position:absolute;
+        top:-90px;
+    }
 }
-
 .section1-paragraph{
     font-family: 'Open Sans', sans-serif;
     font-size:16px;
     margin:0;
     color:#54585a;
     text-align:center;
+    @media all and (min-width:768px) {}
 }
 .arrow-down {
     border-left: 15px solid transparent;
@@ -46,10 +58,19 @@
 }
 .aside-container{
     padding-top:30px;
-    padding-bottom: 15px;  
+    padding-bottom: 15px;
+    @media all and (min-width:768px) {
+        display:flex;
+        flex-direction:row;
+        padding-bottom: 30px;
+        padding-top: 45px;
+    }
 }
 .aside {
     padding-bottom:30px;
+    @media all and (min-width:768px) {
+        width: 50%;
+    }
 }
 .aside-title{
     font-family: 'Rubik', sans-serif;
@@ -61,26 +82,6 @@
     text-align: center;
 }
 @media all and (min-width:768px) {
-    .section1-container{
-        padding-top:30px;
-    }
-    .section1-title{
-        position:relative;
-    }
-    .anchor-nav{
-        position:absolute;
-        top:-90px;
-    }
-    .aside-container{
-        display:flex;
-        flex-direction:row;
-        padding-bottom: 30px;
-        padding-top: 45px;
-
-    }
-    .aside {
-        width: 50%;
-    }
     .aside-f {
         padding-right: 15px;
     }
@@ -88,20 +89,9 @@
         padding-left: 15px;
     }
 }
-
 @media all and (min-width:1200px) {
-    .section1-title{
-        margin-top: 44px;
-    }
-    .section1-container {
-        margin: 0 auto;
-    }
     .section1-paragraph-team{
         margin:8px 94px;
-    }
-    .aside {
-        width: 50%;
-        
     }
     .aside-f {
         padding-right: 23px;
