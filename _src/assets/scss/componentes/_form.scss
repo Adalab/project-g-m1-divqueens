@@ -1,0 +1,32 @@
+.contact_title{
+    position:relative;
+    font-family:'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 900;
+    color:#099d8d;
+    text-align:center;
+    margin-top:0;
+    text-transform:uppercase;
+    @media all and (min-width:768px) {
+        position:relative;
+    }
+    @media all and (min-width:1200px) {
+        margin-top:44px;
+    }
+}
+
+.contact_introduction{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  margin:0;
+  color:#54585a;
+  text-align:center;
+}
+.asterisco{
+  color:#099d8d;
+}
+
+.styleform{
+  display:flex;
+  flex-direction: column;
+}
