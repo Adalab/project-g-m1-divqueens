@@ -29,4 +29,12 @@
 .styleform{
   display:flex;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+
+  input, textarea{
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
