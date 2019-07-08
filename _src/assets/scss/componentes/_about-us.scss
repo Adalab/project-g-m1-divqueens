@@ -126,6 +126,10 @@ h5 {
         .who-list .who-list-elemento:nth-child(even) .who-image {
         order: 2;
     }
+    .who-list .who-list-elemento:nth-child(even) .description {
+      text-align: right;
+      align-items: flex-end;
+  }
     .who-list .who-list-elemento:nth-child(even){
       .container-grid{
         grid-template-columns: 1fr 205px;
@@ -133,6 +137,18 @@ h5 {
     }
 }
 @media all and (min-width:1200px) {
+
+  .container-grid{
+    display:grid;
+    grid-template-columns: 278px 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 45px;
+  }
+  .who-list .who-list-elemento:nth-child(even){
+    .container-grid{
+      grid-template-columns: 1fr 278px;
+    }
+  }
     .description{
         margin-left:45px;
     }
@@ -147,7 +163,7 @@ h5 {
     }
     .description {
         p {
-           margin-block-start: 0;
+           margin-block-start: 1em;
         }
     }
 }
