@@ -41,6 +41,12 @@
 .message {
   font-family: 'Open Sans', sans-serif;
 }
+.button_container {
+  @media all and (min-width:768px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 .button {
   appearance: none;
   background: #099d8d;
@@ -53,4 +59,8 @@
   width: 100%;
   margin-bottom: 60px;
   padding: 12px 0;
+  @media all and (min-width:768px) {
+    width: 45%;
+  }
 }
+
