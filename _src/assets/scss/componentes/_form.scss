@@ -1,0 +1,66 @@
+.contact_title{
+    position:relative;
+    font-family:'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 900;
+    color:$c-title;
+    text-align:center;
+    margin-top:0;
+    text-transform:uppercase;
+    @media all and (min-width:768px) {
+        position:relative;
+    }
+    @media all and (min-width:1200px) {
+        margin-top:44px;
+    }
+}
+
+.contact_introduction{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  margin:0;
+  color:$c-color;
+  text-align:center;
+}
+.asterisco{
+  color:$c-title;
+}
+
+.styleform{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+
+  input, textarea{
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+.message {
+  font-family: 'Open Sans', sans-serif;
+}
+.button_container {
+  @media all and (min-width:768px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.button {
+  appearance: none;
+  background: $c-title;
+  color: $c-title-nav;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 12px 0;
+  @media all and (min-width:768px) {
+    width: 45%;
+  }
+}
+

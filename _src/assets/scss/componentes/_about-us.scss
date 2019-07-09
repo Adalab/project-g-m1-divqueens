@@ -6,7 +6,7 @@
     font-size:24px;
     line-height: 45px;
     text-align: center;
-    color: #099d8d;
+    color:$c-title;
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
     margin: 30px 15px;
@@ -33,7 +33,7 @@
     height: 180px;
     border-radius: 4px;
     border: solid 5px transparent;
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba($c-lema, 0.08);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,14 +64,7 @@ ul {
     margin: 0px 0px 45px 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #5458;
-    @media all and (min-width:768px) {
-        /*display: flex;
-        margin: 0px 15px 40px 15px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        color: #5458;*/
-    }
+    color: $c-color;
     @media all and (min-width:1200px) {
         justify-content: flex-start;
         margin-bottom:60px;
@@ -80,7 +73,7 @@ ul {
 h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: black;
+    color:$c-lema;
     margin-top:15px;
     margin-bottom:0px;
     padding:15px;
@@ -104,7 +97,7 @@ h5 {
     font-size: 4px;
 }
 .fab, .fa {
-    color: #099d8d;
+    color:$c-title;
 }
 @media all and (min-width:768px) {
   .container-grid{
