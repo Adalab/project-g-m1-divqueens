@@ -59,6 +59,11 @@
   width: 100%;
   margin-bottom: 60px;
   padding: 12px 0;
+  transition:box-shadow ease 0.25s;
+    &:hover {
+      box-shadow:0 0 7px 0px grey;
+      cursor:pointer;
+    }
   @media all and (min-width:768px) {
     width: 45%;
   }
