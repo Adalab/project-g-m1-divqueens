@@ -8,7 +8,7 @@ body{
     margin:auto;
     box-sizing:border-box;
     @media all and (min-width:768px) {
-        max-width: 768px; 
+        max-width: 768px;
         padding:0 45px;
     }
     @media all and (min-width:1200px) {
@@ -16,4 +16,17 @@ body{
         padding: 0 138px;
     }
 }
+.page__wrapper__contact{
+  width: 100%;
+  padding:0 15px;
+  margin:auto;
+  box-sizing:border-box;
+  @media all and (min-width:768px){
+    max-width: 442px;
+  }
+  @media all and (min-width:1200px) {
+    max-width: 600px;
 
+}
+
+}

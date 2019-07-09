@@ -1,3 +1,6 @@
+.contact{
+  margin-bottom:58px;
+}
 .contact_title{
     position:relative;
     font-family:'Rubik', sans-serif;
@@ -6,6 +9,7 @@
     color:$c-title;
     text-align:center;
     margin-top:30px;
+    margin-bottom:15px;
     text-transform:uppercase;
     @media all and (min-width:768px) {
         position:relative;
@@ -21,6 +25,7 @@
   margin:0;
   color:$c-color;
   text-align:center;
+  p{margin-bottom:30px;}
 }
 .asterisco{
   color:$c-title;
@@ -38,6 +43,10 @@
     margin-top: 10px;
   }
 }
+.email{
+  font-size:24px;
+  color:$c-color;
+}
 .message {
   font-family: 'Open Sans', sans-serif;
 }
@@ -54,18 +63,22 @@
   font-family: 'Open Sans', sans-serif;
   border: none;
   border-radius: 4px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   width: 100%;
+  margin-top:30px;
   margin-bottom: 60px;
   padding: 12px 0;
   transition:box-shadow ease 0.25s;
     &:hover {
-      box-shadow:0 0 7px 0px grey;
+      box-shadow:0 0 7px 0px $c-color;
       cursor:pointer;
     }
   @media all and (min-width:768px) {
     width: 45%;
+  }
+  @media all and (min-width:1200px){
+    margin-bottom:120px;
   }
 }
 .body-contact .lema {
