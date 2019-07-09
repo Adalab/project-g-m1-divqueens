@@ -3,7 +3,7 @@
     font-family:'Rubik', sans-serif;
     font-size:24px;
     font-weight: 900;
-    color:#099d8d;
+    color:$c-title;
     text-align:center;
     margin-top:0;
     text-transform:uppercase;
@@ -19,11 +19,11 @@
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
   margin:0;
-  color:#54585a;
+  color:$c-color;
   text-align:center;
 }
 .asterisco{
-  color:#099d8d;
+  color:$c-title;
 }
 
 .styleform{
@@ -49,8 +49,8 @@
 }
 .button {
   appearance: none;
-  background: #099d8d;
-  color: white;
+  background: $c-title;
+  color: $c-title-nav;
   font-family: 'Open Sans', sans-serif;
   border: none;
   border-radius: 4px;
