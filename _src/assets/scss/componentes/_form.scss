@@ -46,6 +46,16 @@
 .email{
   font-size:24px;
   color:$c-color;
+  @media all and (min-width:1200px) {
+    width:395px;
+    box-sizing:border-box;
+  }
+}
+.telephone{
+  @media all and (min-width:1200px) {
+    width:150px;
+    box-sizing:border-box;
+  }
 }
 .message {
   font-family: 'Open Sans', sans-serif;
@@ -83,4 +93,13 @@
 }
 .body-contact .lema {
   display:none;
+}
+.emailphone{
+  @media all and (min-width:1200px){
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+  }
+
 }
