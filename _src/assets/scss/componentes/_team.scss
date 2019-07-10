@@ -20,7 +20,7 @@
     font-family:'Rubik', sans-serif;
     font-size:24px;
     font-weight: 900;
-    color:$c-title;
+    color:$color-primary;
     text-align:center;
     margin-top:0;
     @media all and (min-width:768px) {
@@ -42,14 +42,14 @@
     font-family: 'Open Sans', sans-serif;
     font-size:16px;
     margin:0;
-    color:$c-color;
+    color:$color-dark-midtone;
     text-align:center;
     @media all and (min-width:768px) {}
 }
 .arrow-down {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid $c-title-nav;
+    border-top: 15px solid $color-light;
     position:absolute;
     left:50%;
     transform:translateX(-50%);
@@ -57,7 +57,7 @@
 }
 .strengths-weaknesses {
     position:relative;
-    background:$c-strenght;
+    background:$color-light-midtone;
 }
 .aside-container{
     padding-top:30px;
@@ -81,7 +81,7 @@
     font-weight: 900;
     margin-top:8px;
     margin-bottom: 8px;
-    color: $c-title;
+    color: $color-primary;
     text-align: center;
     @media all and (min-width:1200px) {
         margin-top:45px;

@@ -1,14 +1,14 @@
 .header-container {
     font-family:'Rubik', sans-serif;
     font-weight: 900;
-    color:$c-title-nav;
+    color:$color-light;
     padding:0px;
 }
 .header-titlenav{
     width:100%;
     position:fixed;
     z-index:1;
-    background-color: rgba($c-title, 0.9);
+    background-color: rgba($color-primary, 0.9);
 }
 .header__title-link {
     text-decoration: none;
@@ -29,7 +29,7 @@
         }
 }
 .header-nav {
-    background-color: rgba($c-nav, 0.6);
+    background-color: rgba($color-secundary, 0.6);
     margin:0 -15px;
     padding:8px 15px;
     @media all and (min-width:768px){

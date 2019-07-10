@@ -23,15 +23,15 @@
   }
 .lema{
     margin:0;
-    background-color:$c-title-nav;
+    background-color:$color-light;
     font-size:18px;
-    color:$c-lema;
+    color:$color-dark;
     text-align:center;
     padding:14px 15px 16px;
     transform:translateY(50%);
     font-size:18px;
     @media all and (min-width:768px) {
-      background-color:rgba($c-title-nav, 0.8);
+      background-color:rgba($color-light, 0.8);
       width:60%;
       transform:translateY(0);
       text-align:left;

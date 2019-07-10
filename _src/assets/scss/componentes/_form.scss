@@ -6,7 +6,7 @@
     font-family:'Rubik', sans-serif;
     font-size:24px;
     font-weight: 900;
-    color:$c-title;
+    color:$color-primary;
     text-align:center;
     margin-top:30px;
     margin-bottom:15px;
@@ -23,12 +23,12 @@
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
   margin:0;
-  color:$c-color;
+  color:$color-dark-midtone;
   text-align:center;
   p{margin-bottom:30px;}
 }
 .asterisco{
-  color:$c-title;
+  color:$color-primary;
 }
 
 .styleform{
@@ -45,7 +45,7 @@
 }
 .email{
   font-size:24px;
-  color:$c-color;
+  color:$color-dark-midtone;
   @media all and (min-width:1200px) {
     width:395px;
     box-sizing:border-box;
@@ -68,8 +68,8 @@
 }
 .button {
   appearance: none;
-  background: $c-title;
-  color: $c-title-nav;
+  background: $color-primary;
+  color: $color-light;
   font-family: 'Open Sans', sans-serif;
   border: none;
   border-radius: 4px;
@@ -81,7 +81,7 @@
   padding: 12px 0;
   transition:box-shadow ease 0.25s;
     &:hover {
-      box-shadow:0 0 7px 0px $c-color;
+      box-shadow:0 0 7px 0px $color-dark-midtone;
       cursor:pointer;
     }
   @media all and (min-width:768px) {

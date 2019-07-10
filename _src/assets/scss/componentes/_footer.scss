@@ -16,7 +16,7 @@
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color:$c-copy;
+    color:$color-midtone;
     width: 100%;
     margin-top:30px;
     margin-bottom:20px;
@@ -32,7 +32,7 @@
     }
 }
 .footer{
-    border-top: 1px solid $c-copy;
+    border-top: 1px solid $color-midtone;
     text-align: center;
     @media all and (min-width:768px){
         text-align: justify;
@@ -40,7 +40,7 @@
 }
 .limenufooter{
     text-decoration: none;
-    color:$c-color;
+    color:$color-dark-midtone;
     font-size: 14px;
     line-height: 1.43px;
     font-family:'Open Sans', sans-serif;
