@@ -1,5 +1,5 @@
 .hero-image {
-    background-image: url("/assets/images/hero-image.jpg");
+    background-image: url("../images/hero-image.jpg");
     height: 421px;
     width: 100%;
     background-position: center;
@@ -7,7 +7,7 @@
     background-size: cover;
   }
 .body-contact .hero-image{
-  background-image: url("/assets/images/hero-contact-image.jpg");
+  background-image: url('../images/hero-contact-image.jpg');
   height: 421px;
   width: 100%;
   background-position: center;
